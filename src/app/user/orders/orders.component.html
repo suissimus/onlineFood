@@ -1,0 +1,32 @@
+
+<div class="flex flex-column main-container">
+    <div class="flex flex-column topbar-container">
+        <div class="flex flex-column search-bar-container">
+            <div class="flex flex-row justify-content-end align-items-center pr-3 pt-3">
+                <div class="mr-3">
+                    <sf-button btnIcon="pi pi-shopping-cart" btnLabel="Shopping cart" (btnClicked)="openShoppingCart()"></sf-button> 
+                </div>
+                <div>
+                    <sf-button btnIcon="pi pi-heart" btnLabel="Order online" (btnClicked)="openOrderOnlineDialog()"></sf-button> 
+                </div>
+            </div>
+           <div class="order-button ml-3"> 
+            <sf-search-recipes-autocomplete [placeholder]="'Search for food'">
+            </sf-search-recipes-autocomplete>
+            </div>
+        </div>
+        <div class="flex title-bar-container justify-content-center">
+            <div class="title mt-4">Looking for something to eat?</div>
+        </div>
+    </div>
+    <div class="flex flex-row bottom-container">
+       <div class="recipes-container">
+            <sf-orders-recepies></sf-orders-recepies>
+        </div>
+        <div class="sidebar-container">
+            <sf-orders-companies></sf-orders-companies>
+        </div>
+    </div>
+</div>
+
+

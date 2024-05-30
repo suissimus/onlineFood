@@ -1,0 +1,26 @@
+<div class="h-screen p-4 grid m-0 align-items-center justify-content-center">
+  <div class="content-wrapper">
+  <div class="text-3xl font-semibold">Welcome :)</div>
+    <div class="text-base mt-2 text-gray-600">Please log into your account</div>
+    <div class="flex flex-column justify-content-center align-items-center gap-5 mt-6">
+      <div class="flex flex-column gap-3 w-full">
+        <sf-input-text [formCtrl]="form.controls.username | formControl" ctrlLabel="Username"
+                       ctrlPlaceholder="Username"
+                       formCtrlId="username"></sf-input-text>
+        <sf-input-password [formCtrl]="form.controls.password | formControl" ctrlLabel="Password"
+                           ctrlPlaceholder="Password..."
+                           formCtrlId="password"
+        ></sf-input-password>
+        
+      </div>
+      <div class="flex flex-column gap-3 w-full">
+        <sf-button (btnClicked)="handleLogin()" class="login-button" btnClass="w-full"
+                   btnLabel="Log in"></sf-button>
+                
+      </div>
+      <div class="flex justify-content-center guest-text" 
+        (click)="toOrders()">Continue as guest
+      </div>
+    </div>
+  </div>
+</div>

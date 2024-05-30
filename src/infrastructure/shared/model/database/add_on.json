@@ -1,0 +1,37 @@
+[
+  {
+    "Id": 1,
+    "addon_group_id": 1,
+    "name": "Pavlaka",
+    "Price": 10,
+    "IsPreSelected": false
+  },
+  {
+    "Id": 2,
+    "addon_group_id": 2,
+    "name": "Pomfrit",
+    "Price": 100,
+    "IsPreSelected": false
+  },
+  {
+    "Id": 3,
+    "addon_group_id": 3,
+    "name": "Ljuti",
+    "Price": 10,
+    "IsPreSelected": false
+  },
+  {
+    "Id": 4,
+    "addon_group_id": 3,
+    "name": "Blagi",
+    "Price": 10,
+    "IsPreSelected": false
+  },
+  {
+    "Id": 5,
+    "addon_group_id": 3,
+    "name": "Majonez",
+    "Price": 10,
+    "IsPreSelected": false
+  }
+]

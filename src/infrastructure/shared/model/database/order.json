@@ -1,0 +1,37 @@
+[
+  {
+    "Id": 1,
+    "delivery_id": 1,
+    "note": "Please make it spicy."
+  },
+  {
+    "Id": 2,
+    "delivery_id": 2,
+    "note": "Extra cheese, please."
+  },
+  {
+    "Id": 3,
+    "delivery_id": 3,
+    "note": "Deliver to the back entrance."
+  },
+  {
+    "Id": 4,
+    "delivery_id": 4,
+    "note": "Contactless delivery preferred."
+  },
+  {
+    "Id": 5,
+    "delivery_id": 5,
+    "note": "No onions, please."
+  },
+  {
+    "Id": 6,
+    "delivery_id": 6,
+    "note": "Delivery instructions: Ring the doorbell twice."
+  },
+  {
+    "Id": 7,
+    "delivery_id": 7,
+    "note": "Please arrive before 7 PM."
+  }
+]

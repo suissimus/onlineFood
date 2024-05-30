@@ -1,0 +1,17 @@
+[
+  {
+    "Id": 1,
+    "Name": "Small",
+    "Description": "Mala porcija"
+  },
+  {
+    "Id": 2,
+    "Name": "Medium",
+    "Description": "Srednja porcija"
+  },
+  {
+    "Id": 3,
+    "Name": "Large",
+    "Description": "Velika porcija"
+  }
+]

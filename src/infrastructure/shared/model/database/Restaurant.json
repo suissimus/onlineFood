@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Pizza Palace",
+    "phone": "+1234567890",
+    "country": "United States",
+    "timeZone": "EST",
+    "city": "New York",
+    "street_and_number": "123 Main Street"
+  },
+  {
+    "id": 2,
+    "name": "Pasta Paradise",
+    "phone": "+1987654321",
+    "country": "United States",
+    "timeZone": "PST",
+    "city": "Los Angeles",
+    "street_and_number": "456 Elm Avenue"
+  },
+  {
+    "id": 3,
+    "name": "Burger Barn",
+    "phone": "+1122334455",
+    "country": "United States",
+    "timeZone": "CST",
+    "city": "Chicago",
+    "street_and_number": "789 Oak Street"
+  },
+  {
+    "id": 4,
+    "name": "Sushi Spot",
+    "phone": "+1555666777",
+    "country": "United States",
+    "timeZone": "MST",
+    "city": "Denver",
+    "street_and_number": "101 Pine Avenue"
+  },
+  {
+    "id": 5,
+    "name": "Taco Tavern",
+    "phone": "+1444333222",
+    "country": "United States",
+    "timeZone": "PST",
+    "city": "San Francisco",
+    "street_and_number": "202 Maple Street"
+  },
+  {
+    "id": 6,
+    "name": "Curry Corner",
+    "phone": "+1777888999",
+    "country": "United States",
+    "timeZone": "EST",
+    "city": "Miami",
+    "street_and_number": "303 Cedar Lane"
+  },
+  {
+    "id": 7,
+    "name": "Steakhouse Supreme",
+    "phone": "+1666999888",
+    "country": "United States",
+    "timeZone": "CST",
+    "city": "Dallas",
+    "street_and_number": "404 Birch Road"
+  },
+  {
+    "id": 8,
+    "name": "Fine Dining Fusion",
+    "phone": "+1888222111",
+    "country": "United States",
+    "timeZone": "PST",
+    "city": "Seattle",
+    "street_and_number": "505 Oak Boulevard"
+  },
+  {
+    "id": 9,
+    "name": "Seafood Sensation",
+    "phone": "+1222333444",
+    "country": "United States",
+    "timeZone": "EST",
+    "city": "Boston",
+    "street_and_number": "606 Pine Lane"
+  },
+  {
+    "id": 10,
+    "name": "Vegetarian Vibe",
+    "phone": "+1999888777",
+    "country": "United States",
+    "timeZone": "CST",
+    "city": "Houston",
+    "street_and_number": "707 Elm Road"
+  }
+]

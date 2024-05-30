@@ -1,0 +1,55 @@
+:host::ng-deep{
+    .p-button{
+        height: 80%;
+        border-radius: 20px;
+        width: 100%;
+        // margin-top: 20px;
+        margin: auto;
+        
+    }
+}
+
+.main-container{
+    padding: 50px 100px 0 100px;
+}
+
+.card{
+    flex: 1 1 auto;
+    background-color: white;
+    height: 450px;
+    border-radius: 15px;
+    border: 1px solid #ecebf1;
+    max-width: 338px;
+}
+.recipe-text {
+    width: 100%;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #696969;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.picture{
+    border-radius: 20px;
+}
+
+.description-text{
+    width: 100%;
+    text-decoration-style:dotted;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:#ffafaf;
+}
+
+.card-title {
+    font-size: 20px;
+    width: 100%;
+    text-decoration-style:dotted;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:#ffb5b5;
+}
+
+.card-details{
+    width: 70%;
+}

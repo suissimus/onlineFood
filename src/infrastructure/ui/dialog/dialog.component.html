@@ -1,0 +1,116 @@
+<div
+    #mask
+    [ngClass]="{
+    'p-dialog-mask': true,
+    'p-dialog-mask p-component-overlay p-component-overlay-enter p-dialog-mask-scrollblocker':
+      config.modal !== false
+  }"
+>
+    <div
+            (@animation.done)="onAnimationEnd($event)"
+            (@animation.start)="onAnimationStart($event)"
+            *ngIf="visible"
+            [@animation]="{
+      value: 'visible',
+      params: {
+        transform: transformOptions,
+        transition:
+          config.transitionOptions || '150ms cubic-bezier(0, 0, 0.2, 1)'
+      }
+    }"
+            [class]="config.styleClass ?? ''"
+            [ngClass]="{
+      'p-dialog p-dynamic-dialog p-component': true,
+      'p-dialog-rtl': config.rtl,
+      'p-dialog-maximized': config.maximized
+    }"
+            [ngStyle]="config.style"
+            [style.height]="config.height"
+            [style.width]="config.width"
+            role="dialog"
+    >
+        <div *ngIf="config.showHeader !== false" class="p-dialog-header">
+            <div class="flex flex-column">
+                <div class="text-xl text-color font-bold">{{ config.header }}</div>
+                <div *ngIf="config.headerDescription" class="text-base mt-2 text-gray-600">
+                    {{ config.headerDescription }}
+                </div>
+            </div>
+            <!--      <div class="p-dialog-header-icons">-->
+            <!--        <button-->
+            <!--          (click)="maximize()"-->
+            <!--          (keydown.enter)="maximize()"-->
+            <!--          *ngIf="config.maximisable"-->
+            <!--          [ngClass]="{'p-dialog-header-icon p-dialog-header-maximize p-link':true}"-->
+            <!--          pRipple-->
+            <!--          tabindex="-1"-->
+            <!--          type="button"-->
+            <!--        >-->
+            <!--          <span-->
+            <!--            [ngClass]="config.maximized ? config.minimizeIcon : config.maximizeIcon"-->
+            <!--            class="p-dialog-header-maximize-icon"-->
+            <!--          ></span>-->
+            <!--        </button>-->
+            <button
+                    (click)="hide()"
+                    (keydown.enter)="hide()"
+                    *ngIf="config.closable !== false"
+                    [ngClass]="'p-dialog-header-icon p-dialog-header-maximize p-link'"
+                    type="button"
+            >
+                <span class="p-dialog-header-close-icon pi pi-times"></span>
+            </button>
+            <!--      </div>-->
+        </div>
+        <div [ngStyle]="config.contentStyle" class="pt-4 p-dialog-content">
+            <ng-template atlasDialogContent></ng-template>
+        </div>
+        <div
+                *ngIf="!config.hideFooter"
+                class="flex gap-3 p-4 bg-white dialog-footer justify-content-end"
+        >
+            <button
+                    (click)="hide()"
+                    *ngIf="!config.hideCancel"
+                    [disabled]="shouldDisableBtn"
+                    [icon]="
+          config.customCancelButton
+            ? config.customCancelButton.icon
+            : 'far fa-window-close'
+        "
+                    [label]="
+          config.customCancelButton ? config.customCancelButton.label : 'Cancel'
+        "
+                    [ngClass]="
+          config.customCancelButton?.class
+            ? 'p-button-outlined flex-1 p-2 ' +
+              config.customCancelButton?.class
+            : 'p-button-outlined flex-1 p-2'
+        "
+                    pButton
+                    pRipple
+                    type="button"
+                    [ngStyle]="{'max-width': '100px'}"
+            ></button>
+
+            <button
+                    (click)="submit()"
+                    [disabled]="shouldDisableBtn"
+                    [icon]="
+          config.customSubmitButton
+            ? config.customSubmitButton.icon
+            : 'fas fa-save'
+        "
+                    [label]="
+          config.customSubmitButton ? config.customSubmitButton.label : 'Save'
+        "
+                    [loading]="shouldDisableBtn"
+                    class="p-button-secondary flex-1 p-2"
+                    [ngStyle]="{'max-width': '200px'}"
+                    pButton
+                    pRipple
+                    type="submit"
+            ></button>
+        </div>
+    </div>
+</div>

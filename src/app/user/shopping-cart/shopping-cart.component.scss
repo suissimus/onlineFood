@@ -1,0 +1,32 @@
+ :host::ng-deep{
+    .p-dataView{
+        border: 1px black solid;
+        padding: 50%;
+        margin: 50%;
+        float: initial;
+        position: relative;
+    }
+
+    .p-button{
+        height: 45px;
+        border-radius: 5px;
+        background-color: #c4b1a7;
+        border: 2px solid white;
+    }
+
+    .p-dataview .p-dataview-content{
+        background-color: transparent;
+    }
+}
+
+.card {
+    background-image: url('../../../assets/images/shopping-cart/breakfast.jpg');
+    background-size: 100%;
+    height :100dvb;
+    position: relative;
+}
+
+.card-details{
+    background-color: #c4b1a7;
+    border-radius: 1px solid;
+}

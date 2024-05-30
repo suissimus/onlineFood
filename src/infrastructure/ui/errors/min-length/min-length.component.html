@@ -1,0 +1,4 @@
+<small
+  *ngIf="formCtrl.errors?.['minlength'] && (formCtrl.dirty || formCtrl.touched)"
+  class="error-info"
+>{{ errorMsg }}</small>

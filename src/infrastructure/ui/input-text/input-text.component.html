@@ -1,0 +1,41 @@
+<!--<span class="p-float-label max-w-full" [ngClass]="formCtrlIcon ? 'p-input-icon-left block' : ''">-->
+<!--    <input-->
+<!--      (blur)="handleBlur($event)"-->
+<!--      (keyup)="handleKeyUp($event)"-->
+<!--      [formControl]="formCtrl"-->
+<!--      [id]="formCtrlId"-->
+<!--      [type]="formCtrlType"-->
+<!--      autocomplete="off"-->
+<!--      class="w-full text-lg"-->
+<!--      pInputText-->
+<!--      [ngClass]="formCtrlIcon ? 'pl-5' : ''"-->
+<!--    />-->
+<!--    <label-->
+<!--      [ngClass]="formCtrlIcon ? 'pl-2' : ''"-->
+<!--    >{{ ctrlLabel }}-->
+<!--      <small *ngIf="formCtrl.errors?.['required']" class="error-text"-->
+<!--      >*</small-->
+<!--      ></label-->
+<!--    >-->
+<!--</span>-->
+
+
+
+<div class="flex flex-column gap-2">
+    <i *ngIf="formCtrlIcon" [ngClass]="formCtrlIcon"></i>
+    <label [for]="ctrlLabel">{{ctrlLabel}} {{formCtrl.errors?.['required'] ? '*' : ''}} </label>
+    <input
+            (blur)="handleBlur($event)"
+            (keyup)="handleKeyUp($event)"
+            [formControl]="formCtrl"
+            [id]="formCtrlId"
+            [type]="formCtrlType"
+            [placeholder]="ctrlPlaceholder"
+            autocomplete="off"
+            class="w-full text-base"
+            pInputText
+            [ngClass]="formCtrlIcon ? 'pl-5' : ''"
+    />
+    <sf-error-required [formCtrl]="formCtrl"></sf-error-required>
+    <sf-error-email [formCtrl]="formCtrl"></sf-error-email>
+</div>

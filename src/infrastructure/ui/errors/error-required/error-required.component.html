@@ -1,0 +1,5 @@
+<small
+  *ngIf="formCtrl.errors?.['required'] && (formCtrl.dirty || formCtrl.touched)"
+  class="error-info text-red-500"
+>{{ errorMsg }}</small
+>

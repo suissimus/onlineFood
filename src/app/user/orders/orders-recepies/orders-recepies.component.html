@@ -1,0 +1,133 @@
+<!-- <div class="flex flex-column">
+    <div class="flex flex-row justify-content-between main-container">
+        <div class="flex flex-column card mr-4  align-items-start">
+                <div class="flex justify-content-center -my-4">
+                    <img class="picture shadow-6" src="../../../assets/images/dishes/salad.jpg" width="70%">
+                </div>
+                <div class="flex justify-content-center">
+                    <div class="flex flex-column justify-content-center card-details">
+                <div class="card-title flex align-items-center text-center justify-content-center mt-6 align-items-start">
+                    Ceasar Salad
+                </div>
+                <div class="recipe-text flex mt-3">
+                     Beyond its humble ingredients, pasta stands
+                     as a canvas for culinary creativity, effortlessly marrying with a range of ingredients to suit any palate. 
+          </div>
+          <sf-button btnLabel="Order"></sf-button>
+        </div>
+        </div>
+        </div>
+        <div class="flex flex-column card mr-4  align-items-start">
+            <div class="flex justify-content-center -my-4">
+                <img class="picture shadow-6" src="../../../assets/images/dishes/avocado.jpg" width="70%">
+            </div>
+            <div class="flex justify-content-center">
+                <div class="flex flex-column justify-content-center card-details">
+                    <div class="card-title flex align-items-center text-center justify-content-center mt-6 align-items-start">
+                        Pasta
+                    </div>
+                    <div class="recipe-text flex mt-3">
+                        Beyond its humble ingredients, pasta stands
+                        as a canvas for culinary creativity, effortlessly marrying with a range of ingredients to suit any palate. 
+                    </div>
+                    <sf-button btnLabel="Order"></sf-button>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-column card mr-4  align-items-start">
+            <div class="flex justify-content-center -my-4" >
+                <img class="picture shadow-6" src="../../../assets/images/dishes/sushi.jpg" width="70%">
+            </div>
+            <div class="flex justify-content-center">
+                <div class="flex flex-column justify-content-center card-details">
+            <div class="card-title flex align-items-center text-center justify-content-center mt-6 align-items-start"> 
+               Sushi
+            </div>
+            <div class="recipe-text flex mt-3">
+                Beyond its humble ingredients, pasta stands
+                as a canvas for culinary creativity, effortlessly marrying with a range of ingredients to suit any palate. 
+            </div>
+            <sf-button btnLabel="Order"></sf-button>
+        </div>
+    </div>
+</div>
+</div>
+    <div class="flex flex-column">
+        <div class="flex flex-row justify-content-between main-container">
+            <div class="flex flex-column card mr-4  align-items-start">
+                    <div class="flex justify-content-center -my-4">
+                        <img class="picture shadow-6" src="../../../assets/images/dishes/salad.jpg" width="70%">
+                    </div>
+                    <div class="flex justify-content-center">
+                        <div class="flex flex-column justify-content-center card-details">
+                    <div class="card-title flex align-items-center text-center justify-content-center mt-6 align-items-start">
+                        Ceasar Salad
+                    </div>
+                    <div class="recipe-text flex mt-3">
+                         Beyond its humble ingredients, pasta stands
+                         as a canvas for culinary creativity, effortlessly marrying with a range of ingredients to suit any palate. 
+              </div>
+              <sf-button btnLabel="Order"></sf-button>
+            </div>
+            </div>
+            </div>
+            <div class="flex flex-column card mr-4  align-items-start">
+                <div class="flex justify-content-center -my-4">
+                    <img class="picture shadow-6" src="../../../assets/images/dishes/avocado.jpg" width="70%">
+                </div>
+                <div class="flex justify-content-center">
+                    <div class="flex flex-column justify-content-center card-details">
+                        <div class="card-title flex align-items-center text-center justify-content-center mt-6 align-items-start">
+                            Pasta
+                        </div>
+                        <div class="recipe-text flex mt-3">
+                            Beyond its humble ingredients, pasta stands
+                            as a canvas for culinary creativity, effortlessly marrying with a range of ingredients to suit any palate. 
+                        </div>
+                        <sf-button btnLabel="Order"></sf-button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-column card mr-4  align-items-start">
+                <div class="flex justify-content-center -my-4" >
+                    <img class="picture shadow-6" src="../../../assets/images/dishes/sushi.jpg" width="70%">
+                </div>
+                <div class="flex justify-content-center">
+                    <div class="flex flex-column justify-content-center card-details">
+                <div class="card-title flex align-items-center text-center justify-content-center mt-6 align-items-start"> 
+                    Sushi
+                </div>
+                <div class="recipe-text flex mt-3">
+                    Beyond its humble ingredients, pasta stands
+                    as a canvas for culinary creativity, effortlessly marrying with a range of ingredients to suit any palate. 
+                </div>
+                <sf-button btnLabel="Order"></sf-button>
+            </div>
+        </div>
+    </div>
+    </div> -->
+
+
+<!-- <div class="flex flex-row align-items-center main-container">
+    <div class="flex flex-column card mr-4 justify-content-between align-items-start">
+
+<div class="flex justify-content-center -my-4">
+        <img class="picture shadow-6 " src="" width="70%">
+    </div>
+    <div class="flex justify-content-center">
+        <div class="flex flex-column justify-content-center card-details">
+            <div class="card-title flex align-items-center text-center justify-content-center mt-6 align-items-start"> 
+                </div>
+                <div class="recipe-text flex mt-3">
+                </div>
+                <sf-button btnLabel="Order"></sf-button>
+      <sf-orders-recepies-card *ngFor="let d of dishList" [dish]="d"></sf-orders-recepies-card>  
+</div>
+</div>
+</div>
+ </div> -->
+
+ <div class="flex flex-row content-wrapper main-container gap-7">
+    <sf-orders-recepies-card *ngFor="let d of dishList" [dish]="d"></sf-orders-recepies-card> 
+</div>
+     

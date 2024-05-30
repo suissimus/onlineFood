@@ -1,0 +1,18 @@
+:host::ng-deep{
+  .menu-size {
+    width: 280px !important;
+    height : 100dvh;
+  }
+
+  .container{
+    background: rgba(26, 26, 26, 1);
+  }
+
+  .layout-container {
+    background: white;
+    border-radius: 40px 40px 40px 40px;
+    padding: 32px 0 32px 0px;
+    margin : 10px 10px 10px 0;
+    gap: 32px;
+  }
+}

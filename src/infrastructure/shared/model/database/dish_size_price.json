@@ -1,0 +1,44 @@
+[
+  {
+    "Id": 1,
+    "dish_size_id": 1,
+    "dish_id": 1,
+    "price": 9.99,
+    "isPreSelected": true
+  },
+  {
+    "Id": 2,
+    "dish_size_id": 2,
+    "dish_id": 1,
+    "price": 11.99,
+    "isPreSelected": false
+  },
+  {
+    "Id": 3,
+    "dish_size_id": 3,
+    "dish_id": 1,
+    "price": 14.99,
+    "isPreSelected": false
+  },
+  {
+    "Id": 4,
+    "dish_size_id": 1,
+    "dish_id": 2,
+    "price": 12.99,
+    "isPreSelected": true
+  },
+  {
+    "Id": 5,
+    "dish_size_id": 2,
+    "dish_id": 2,
+    "price": 14.99,
+    "isPreSelected": false
+  },
+  {
+    "Id": 6,
+    "dish_size_id": 3,
+    "dish_id": 2,
+    "price": 17.99,
+    "isPreSelected": false
+  }
+]

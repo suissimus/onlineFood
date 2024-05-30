@@ -1,0 +1,51 @@
+
+<!-- <div class="card flex flex-column pr-8 pb-3">
+     <p-dataView [value]="dishesInCart" [listStyle]="{ height: '40rem' }" header="Shopping cart ">
+        <ng-template let-dish pTemplate="item">
+            <div class="flex flex-wrap p-2 align-items-center gap-3 card-details pb-3">
+                <img [src]="dish.photo" [alt]="dish.name" class="w-4rem shadow-2 flex-shrink-0 border-round" >
+                <div class="flex-1 flex flex-column gap-2">
+                    <span class="font-bold">{{ dish?.name }}</span>
+                    <div class="flex align-items-center gap-2">
+                    </div>
+                </div>
+                <span class="font-bold text-900">{{ 'RSD' + dish?.price }}</span>   
+            </div> 
+        </ng-template>
+     </p-dataView>
+    
+     <sf-button btnLabel="Order Now"></sf-button>
+</div> -->
+
+
+<div class="card">
+    <p-dataView [value]="dishesInCart">
+        <ng-template pTemplate="list" let-dishes>
+            <div class="grid grid-nogutter px-6">
+                <div class="flex-column col-12" *ngFor="let dish of dishes; let i = index">
+                    <div class="flex flex-wrap p-2 align-items-center gap-3 card-details pb-3 mb-2 border-bottom-2 border-left-2 border-right-2 border-round">
+                        <img [src]="dish.photo" 
+                        width="50px" height="50px" 
+                        [alt]="dish.name" 
+                        class="w-4rem shadow-2 flex-shrink-0 border-round " >
+                        <div class="flex-1 flex flex-column gap-2">
+                            <span class="font-bold">{{ dish?.name }}</span>
+                            <div class="flex align-items-center gap-2">
+                            </div>
+                            <sf-button (click)="deleteDish(i)" btnIcon="pi pi-times" [btnRounded]="true" [isText]="true" > 
+                            </sf-button>
+                        </div>
+                        <span class="font-bold text-900">{{ 'RSD' + dish?.price }}</span>   
+                    </div> 
+                </div>
+            </div>  
+        </ng-template>   
+    </p-dataView>
+    <div class="flex flex-row justify-content-between">
+        <div> Total:{{totalPrice}}</div>
+        <div>
+            <sf-button (click)="orderNow()" btnLabel="Order Now">
+            </sf-button>
+        </div>
+    </div>
+</div>

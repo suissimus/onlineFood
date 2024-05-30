@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "Name": "Margherita Pizza",
+    "Description": "A classic pizza topped with tomato sauce, mozzarella cheese, fresh basil leaves, and a drizzle of olive oil.",
+    "Price": 700,
+    "categoryId": 1,
+    "photo" : "../../../../assets/images/dish/margarita.jpg"
+  },
+  {
+    "Id": 2,
+    "Name": "Spaghetti Carbonara",
+    "Description": "A pasta dish consisting of spaghetti noodles tossed in a creamy sauce made with eggs, cheese, pancetta, and black pepper.",
+    "Price": 670,
+    "categoryId": 2,
+    "photo":"../../../../assets/images/dish/carbonara.jpg"
+  },
+  {
+    "Id": 3,
+    "Name": "Mozzarella Sticks",
+    "Description": "Breaded and fried sticks of mozzarella cheese, served with marinara sauce for dipping.",
+    "Price": 460,
+    "categoryId": 3,
+    "photo" :"../../../../assets/images/dish/sticks.jpg"
+  },
+  {
+    "Id": 4,
+    "Name": "Classic Cheeseburger",
+    "Description": "A juicy beef patty topped with melted cheese, lettuce, tomato, onion, pickles, and mayonnaise, served on a toasted bun.",
+    "Price": 870,
+    "categoryId": 4,
+    "photo" : "../../../../assets/images/dish/cheeseburger.jpg"
+  },
+  {
+    "Id": 5,
+    "Name": "California Roll",
+    "Description": "A type of sushi roll filled with crab meat, avocado, and cucumber, wrapped in seaweed and sushi rice, served with soy sauce and pickled ginger.",
+    "Price": 1100,
+    "categoryId": 5,
+    "photo" : "../../../../assets/images/dish/california-roll.jpg"
+  },
+  {
+    "Id": 6,
+    "Name": "Pepperoni Pizza",
+    "Description": "A classic pizza topped with tomato sauce, mozzarella cheese, and slices of pepperoni, baked to perfection.",
+    "Price": 790,
+    "categoryId": 1,
+    "photo" : "../../../../assets/images/dish/pepperoni-pizza.jpg"
+  },
+  {
+    "Id": 7,
+    "Name": "Fettuccine Alfredo",
+    "Description": "A creamy pasta dish made with fettuccine noodles tossed in a rich Alfredo sauce made from butter, cream, and Parmesan cheese.",
+    "Price": 660,
+    "categoryId": 2, 
+    "photo" : "../../../../assets/images/dish/alfredo.jpg"
+  },
+  {
+    "Id": 8,
+    "Name": "Chicken Wings",
+    "Description": "Crispy fried chicken wings tossed in a spicy buffalo sauce and served with celery sticks and blue cheese dressing.",
+    "Price": 630,
+    "categoryId": 3, 
+    "photo" : "../../../../assets/images/dish/chicken-wings.jpg"
+  },
+  {
+    "Id": 9,
+    "Name": "BBQ Bacon Burger",
+    "Description": "A delicious burger featuring a juicy beef patty topped with crispy bacon, tangy barbecue sauce, cheddar cheese, lettuce, and tomato.",
+    "Price": 990,
+    "categoryId": 4,
+    "photo" : "../../../../assets/images/dish/BBQ.jpg"
+  },
+  {
+    "Id": 10,
+    "Name": "Salmon Nigiri",
+    "Description": "A type of sushi consisting of thinly sliced raw salmon served atop a small mound of vinegared rice, typically garnished with wasabi and soy sauce.",
+    "Price": 940,
+    "categoryId": 5,
+    "photo" : "../../../../assets/images/dish/nigiri.jpg"
+  }
+]

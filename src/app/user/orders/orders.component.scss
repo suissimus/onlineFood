@@ -1,0 +1,76 @@
+:host ::ng-deep {
+    .p-button{
+        height: 45px;
+        border-radius: 5px;
+        background-color: #ffb5b5;
+        border: 2px solid white;
+
+        &:hover{
+            background-color:white;
+            color: #ffb5b5;
+            transition: 0.3s;
+            border: 2px solid #ffb5b5;
+        }
+
+    }
+}
+
+.main-container{
+    height: 100dvh;
+}
+
+.topbar-container{
+    background-image: url('../../../assets/images/orders/background-orders.jpg');
+    min-height: 275px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.text {
+    text-align: center;
+    margin-top:150px;
+    margin-bottom: 20px;
+}
+
+.title{
+    font-size: 30px;
+    font-family: 'Arial', Times, serif;
+    color: #ffa2a2;
+    font-weight: bold;
+}
+
+.search-bar-container{
+    height: 50%;
+    justify-content: center;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    border-radius: 1px;
+}
+
+.title-bar-container{
+    height: 50%;
+}
+
+.recipes-container{
+    width: 75%;
+}
+
+.sidebar-container{
+    width: 25%;
+}
+
+.bottom-container{
+    height: 100dv;
+    background-color: #ecedf1;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-betweeny;
+    height: 50%;
+}
+.p-card {
+    width: 50%;
+    flex: 1 ;
+}

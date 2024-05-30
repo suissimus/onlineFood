@@ -1,0 +1,27 @@
+[
+  {
+    "Id": 1,
+    "Name": "Pizza",
+    "Description": "A savory dish consisting of a round, flattened base of dough topped with tomato sauce, cheese, and various toppings, baked in an oven."
+  },
+  {
+    "Id": 2,
+    "Name": "Pasta",
+    "Description": "A type of Italian food typically made from unleavened dough of durum wheat flour mixed with water or eggs, and formed into sheets or various shapes, then cooked by boiling or baking."
+  },
+  {
+    "Id": 3,
+    "Name": "Appetizers",
+    "Description": "Small dishes of food or drink served before or at the beginning of a meal to stimulate the appetite."
+  },
+  {
+    "Id": 4,
+    "Name": "Burgers",
+    "Description": "A sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun."
+  },
+  {
+    "Id": 5,
+    "Name": "Sushi",
+    "Description": "A Japanese dish consisting of small balls or rolls of vinegar-flavored cold cooked rice served with a garnish of raw fish, vegetables, or egg."
+  }
+]

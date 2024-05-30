@@ -1,0 +1,33 @@
+// :host::ng-deep{
+
+// }
+
+.main-container{
+    margin-top: 50px;
+    margin-right: 100px;
+    background-color: white;
+    min-height: 450px;
+    border-radius: 15px;
+    border: 1px solid #ecebf1;
+}
+
+.header-bar{
+    padding : 32px;
+}
+
+.header-title{
+    color : #161616;
+    font-weight: bold;
+}
+
+.divider{
+    width: 100%;
+    background-color: #eae9ee;
+    height: 1px;
+}
+
+.header-link{
+    color : #e42b67;
+    cursor: pointer;
+    font-weight: bold;
+}

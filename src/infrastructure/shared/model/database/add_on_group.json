@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 1,
+    "Name": "Premazi",
+    "Description": null,
+    "isMandatory": true,
+    "type": "Radio"
+  },
+  {
+    "Id": 2,
+    "Name": "Dodaci",
+    "Description": null,
+    "isMandatory": false,
+    "type": "Input"
+  },
+  {
+    "Id": 3,
+    "Name": "Sosevi",
+    "Description": null,
+    "isMandatory": false,
+    "type": "Checkbox"
+  }
+]

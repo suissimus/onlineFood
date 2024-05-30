@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "menu_id": 1,
+    "dish_id": 1
+  },
+  {
+    "Id": 2,
+    "menu_id": 1,
+    "dish_id": 2
+  },
+  {
+    "Id": 3,
+    "menu_id": 1,
+    "dish_id": 3
+  },
+  {
+    "Id": 4,
+    "menu_id": 2,
+    "dish_id": 2
+  },
+  {
+    "Id": 5,
+    "menu_id": 2,
+    "dish_id": 3
+  },
+  {
+    "Id": 6,
+    "menu_id": 3,
+    "dish_id": 3
+  },
+  {
+    "Id": 7,
+    "menu_id": 2,
+    "dish_id": 4
+  },
+  {
+    "Id": 8,
+    "menu_id": 2,
+    "dish_id": 5
+  },
+  {
+    "Id": 9,
+    "menu_id": 3,
+    "dish_id": 6
+  },
+  {
+    "Id": 10,
+    "menu_id": 3,
+    "dish_id": 7
+  },
+  {
+    "Id": 11,
+    "menu_id": 4,
+    "dish_id": 8
+  },
+  {
+    "Id": 12,
+    "menu_id": 4,
+    "dish_id": 9
+  },
+  {
+    "Id": 13,
+    "menu_id": 4,
+    "dish_id": 10
+  },
+  {
+    "Id": 14,
+    "menu_id": 5,
+    "dish_id": 11
+  },
+  {
+    "Id": 15,
+    "menu_id": 5,
+    "dish_id": 12
+  },
+  {
+    "Id": 16,
+    "menu_id": 5,
+    "dish_id": 13
+  }
+]

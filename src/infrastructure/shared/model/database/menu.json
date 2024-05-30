@@ -1,0 +1,17 @@
+[
+  {
+    "Id": 1,
+    "Name": "Glavni Meni",
+    "Description": "Naš glavni meni sadrži raznovrsne i obilne obroke, uključujući jela od mesa, paste, morske plodove i još mnogo toga."
+  },
+  {
+    "Id": 2,
+    "Name": "Posni Meni",
+    "Description": "Naš posni meni nudi ukusne opcije pogodne za one koji pridržavaju dijetetskih ograničenja. Uživajte u izboru ukusnih jela bez životinjskih proizvoda."
+  },
+  {
+    "Id": 3,
+    "Name": "Vegetarijanski Meni",
+    "Description": "Naš vegetarijanski meni predstavlja širok izbor ukusnih jela napravljenih od svežeg povrća, voća, žitarica i mahunarki. Uživajte u ukusnim i hranljivim opcijama bez mesa."
+  }
+]

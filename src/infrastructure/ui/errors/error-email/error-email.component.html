@@ -1,0 +1,6 @@
+<small
+  *ngIf="formCtrl.errors?.['email'] && (formCtrl.dirty || formCtrl.touched)"
+  class="error-info"
+>
+  {{ errorMsg }}
+</small>

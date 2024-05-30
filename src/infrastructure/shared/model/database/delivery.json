@@ -1,0 +1,51 @@
+[
+  {
+    "Id": 1,
+    "Address": "123 Main Street",
+    "Note": "Gate code: 1234",
+    "Longitude": -73.981042,
+    "Latitude": 40.743116
+  },
+  {
+    "Id": 2,
+    "Address": "456 Elm Street",
+    "Note": "Leave at front door.",
+    "Longitude": -73.987632,
+    "Latitude": 40.730610
+  },
+  {
+    "Id": 3,
+    "Address": "789 Oak Avenue",
+    "Note": "Call upon arrival.",
+    "Longitude": -73.977175,
+    "Latitude": 40.750504
+  },
+  {
+    "Id": 4,
+    "Address": "101 Pine Road",
+    "Note": "Delivery instructions: Knock loudly.",
+    "Longitude": -73.992083,
+    "Latitude": 40.736954
+  },
+  {
+    "Id": 5,
+    "Address": "202 Maple Lane",
+    "Note": "Leave package on porch.",
+    "Longitude": -73.985781,
+    "Latitude": 40.744859
+  },
+  {
+    "Id": 6,
+    "Address": "303 Cedar Court",
+    "Note": "Apartment 2B",
+    "Longitude": -73.981946,
+    "Latitude": 40.752167
+  },
+  {
+    "Id": 7,
+    "Address": "404 Birch Boulevard",
+    "Note": "Delivery to the office lobby.",
+    "Longitude": -73.978506,
+    "Latitude": 40.745924
+  }
+]
